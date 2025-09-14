@@ -9,7 +9,7 @@ function adicionarAmigo() {
 
 
     if (nome == "") {
-        alert("Digite um nome.");
+        alert("Por favor, insira um nome.");
         return;
     } 
 
