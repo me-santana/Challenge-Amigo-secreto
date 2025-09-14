@@ -21,7 +21,13 @@ function adicionarAmigo() {
 //atualizando os amigos na tela
 
 function mostrarLista (){
-    let lista = document.getElementById("listaAmigos")
+    let lista = document.getElementById("listaAmigos");
     lista.innerHTML = ""; //serve para limpar a lita antes de atualizar
-    lista.innerHTML = "<li>" + amigos.join("</li><li>") + "</li>"; // exibir os amigos
+
+    for(let i = 0; i < amigos.length; i++) {
+        let li = document.createElement("li"); //criar element <li>
+        li.textContent = amigos[i]; //adicionar o nome do amgo
+        lista.appendChild(li); //adicionar a lista no html 
+    }
+
 }
