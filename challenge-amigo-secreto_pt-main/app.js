@@ -31,3 +31,21 @@ function mostrarLista (){
     }
 
 }
+
+funtion sortearAmigo() {
+    if (amigos.length === 0) { //verifiar se a lista tá vazia
+        alert("Não há amigos na lista!");
+        return;
+    }
+
+    //sortear um indice/amigo aleatório
+    let indiceAleatorio = Math.floor(Math.random( * amigos.length));
+
+    //Obter o nome sorteado
+    let amigoSorteado = amigos[indiceAleatorio];
+
+    //mostar o resultado
+    let resultado = document.getElementById("resultado");
+    resultado.innerHTML = `O amigo sorteado é: <strong>${amigoSorteado}</strong>`;
+
+}
