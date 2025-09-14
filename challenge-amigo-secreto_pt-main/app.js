@@ -1,4 +1,5 @@
 //O principal objetivo deste desafio é fortalecer suas habilidades em lógica de programação. Aqui você deverá desenvolver a lógica para resolver o problema.
+console.log("JS carregado!");
 
 let amigos = [];
 
@@ -32,14 +33,14 @@ function mostrarLista (){
 
 }
 
-funtion sortearAmigo() {
+function sortearAmigo() {
     if (amigos.length === 0) { //verifiar se a lista tá vazia
         alert("Não há amigos na lista!");
         return;
     }
 
     //sortear um indice/amigo aleatório
-    let indiceAleatorio = Math.floor(Math.random( * amigos.length));
+    let indiceAleatorio = Math.floor(Math.random() * amigos.length);
 
     //Obter o nome sorteado
     let amigoSorteado = amigos[indiceAleatorio];
