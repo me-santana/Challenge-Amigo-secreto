@@ -1,6 +1,10 @@
 # 🎁 Amigo Secreto
 
-Este projeto é um desafio prático no qual desenvolvi uma aplicação que permite aos usuários inserir nomes de amigos em uma lista e, em seguida, realizar um sorteio aleatório para determinar quem será o **"amigo secreto"**.  
+Este projeto é um desafio prático no qual desenvolvi uma aplicação que permite aos usuários inserir nomes de amigos em uma lista e, em seguida, realizar um sorteio aleatório para determinar quem será o **"amigo secreto"**. 
+
+## 🌐 Versão Online
+Você pode acessar a aplicação publicada no Vercel clicando no link abaixo:  
+[Ver no Vercel](https://challenge-amigo-secreto-chi-ten.vercel.app/)
 
 ## 🚀 Funcionalidades
 
